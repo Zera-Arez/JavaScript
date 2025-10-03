@@ -8,7 +8,7 @@
         <script>
             function toggleCompetences(x) {
             
-            const compSection = document.getElementById(x);
+            const compSection = this.childNodes.querySelector('span').id;
             compSection.style.display =
             compSection.style.display === 'none' ? 'block' : 'none';
             
@@ -36,6 +36,7 @@
             </main>
     </body>
 </html>
+
 
 
 
